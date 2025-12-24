@@ -1,4 +1,4 @@
-# 🎬 Netflix Movies & TV Shows - Recommendation System
+# Netflix Movies & TV Shows - Recommendation System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -6,7 +6,7 @@
 
 A comprehensive data analysis and content-based recommendation system for Netflix Movies and TV Shows using Python. This project performs extensive Exploratory Data Analysis (EDA) and builds an intelligent recommendation engine using machine learning techniques.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -23,7 +23,7 @@ A comprehensive data analysis and content-based recommendation system for Netfli
 - [License](#license)
 - [Contact](#contact)
 
-## 🎯 Overview
+## Overview
 
 This project analyzes Netflix's content library to uncover insights about viewing patterns, content distribution, and trends. It includes a sophisticated content-based recommendation system that suggests similar movies and TV shows based on various features like genres, cast, director, and descriptions.
 
@@ -36,33 +36,33 @@ This project analyzes Netflix's content library to uncover insights about viewin
 - **Professional Visualizations**: Netflix-themed color palette and styling
 - **Interactive Analysis**: Ready-to-use Jupyter notebook with detailed explanations
 
-## ✨ Features
+## Features
 
-- 📊 **Exploratory Data Analysis**
+- **Exploratory Data Analysis**
   - Content distribution (Movies vs TV Shows)
   - Geographic analysis (content by country)
   - Temporal trends (release years, addition patterns)
   - Genre and rating analysis
   - Duration analysis
 
-- 🔬 **Statistical Testing**
+- **Statistical Testing**
   - Release year distribution analysis
   - Content type vs rating association
   - Geographic content representation
   - Temporal trend analysis
 
-- 🤖 **Recommendation System**
+- **Recommendation System**
   - Content-based filtering
   - TF-IDF vectorization (5000 features)
   - Cosine similarity matching
   - Multi-feature recommendations (genre, cast, director, description)
 
-- 🎨 **Professional Visualizations**
+- **Professional Visualizations**
   - Netflix-branded color scheme
   - Interactive plots
   - Clean, publication-ready figures
 
-## 📁 Dataset
+## Dataset
 
 **Source**: [Netflix Movies and TV Shows Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
@@ -72,7 +72,7 @@ This project analyzes Netflix's content library to uncover insights about viewin
 - **Date Range**: Content added from 2008 to 2021
 - **Coverage**: Global content from 100+ countries
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -111,7 +111,7 @@ This project analyzes Netflix's content library to uncover insights about viewin
    jupyter notebook main.ipynb
    ```
 
-## 💻 Usage
+## Usage
 
 ### Quick Start
 
@@ -134,10 +134,10 @@ recommendations = get_recommendations('Breaking Bad', top_n=10)
 ### Example Output
 
 ```
-🎬 NETFLIX RECOMMENDATIONS FOR: 'STRANGER THINGS'
-🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬🎬
+NETFLIX RECOMMENDATIONS FOR: 'STRANGER THINGS'
+================================================
 
-📺 Top 10 Similar Titles:
+Top 10 Similar Titles:
 
 1. Nightflyers
    Type: TV Show | Genre: TV Horror, TV Mysteries, TV Sci-Fi & Fantasy
@@ -149,7 +149,7 @@ recommendations = get_recommendations('Breaking Bad', top_n=10)
 ...
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Netflix-Recommendation-System-in-Python/
@@ -199,7 +199,7 @@ Netflix-Recommendation-System-in-Python/
    - Key findings
    - Summary report
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.8+**: Core programming language
 - **Pandas**: Data manipulation and analysis
@@ -212,7 +212,7 @@ Netflix-Recommendation-System-in-Python/
 - **Kagglehub**: Dataset management
 - **Jupyter**: Interactive development environment
 
-## 🔍 Key Findings
+## Key Findings
 
 ### Content Distribution
 - **Movies**: 6,131 titles (69.6%)
@@ -235,7 +235,7 @@ Netflix-Recommendation-System-in-Python/
 - Most additions on Fridays
 - Release years span 1925-2021
 
-## 🤖 Recommendation System
+## Recommendation System
 
 ### How It Works
 
@@ -266,15 +266,15 @@ The recommendation system uses **Content-Based Filtering**:
 - **Computation Time**: < 1 second per recommendation
 - **Accuracy**: High relevance based on content features
 
-## 📊 Results
+## Results
 
 The project successfully:
 
-✅ Analyzed 8,807 Netflix titles with comprehensive visualizations  
-✅ Identified key trends in Netflix's content strategy  
-✅ Validated hypotheses using statistical tests  
-✅ Built a functional recommendation system  
-✅ Generated relevant recommendations for various content types  
+- Analyzed 8,807 Netflix titles with comprehensive visualizations  
+- Identified key trends in Netflix's content strategy  
+- Validated hypotheses using statistical tests  
+- Built a functional recommendation system  
+- Generated relevant recommendations for various content types  
 
 ### Sample Recommendations
 
@@ -288,7 +288,7 @@ For **"Breaking Bad"** (Crime Drama):
 - The Lizzie Borden Chronicles (49.9% match)
 - Ozark (47.5% match)
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] Implement collaborative filtering using user data
 - [ ] Add sentiment analysis on descriptions
@@ -299,7 +299,7 @@ For **"Breaking Bad"** (Crime Drama):
 - [ ] Implement deep learning models (neural networks)
 - [ ] Create API for recommendations
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -309,18 +309,18 @@ Contributions are welcome! Here's how you can help:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Contact
+## Contact
 
 **Nusrat Begum**
 
 - GitHub: [@NusratBegum](https://github.com/NusratBegum)
 - Project Link: [https://github.com/NusratBegum/Netflix-Recommendation-System-in-Python](https://github.com/NusratBegum/Netflix-Recommendation-System-in-Python)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset provided by [Shivam Bansal on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - Inspired by Netflix's recommendation algorithms
@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ If you found this project helpful, please consider giving it a star!**
+**If you found this project helpful, please consider giving it a star!**
 
 ---
 
