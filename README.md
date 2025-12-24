@@ -90,7 +90,12 @@ This project analyzes Netflix's content library to uncover insights about viewin
 
 2. **Install required packages**
    ```bash
-   pip install numpy pandas matplotlib seaborn scikit-learn scipy kagglehub
+   pip install -r requirements.txt
+   ```
+   
+   Or install packages individually:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn scipy kagglehub jupyter
    ```
 
 3. **Configure Kaggle credentials** (if needed)
